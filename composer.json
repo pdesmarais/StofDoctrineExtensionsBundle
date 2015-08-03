@@ -1,9 +1,9 @@
 {
-    "name": "stof/doctrine-extensions-bundle",
+    "name": "pdesmarais/doctrine-extensions-bundle",
     "type": "symfony-bundle",
     "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
     "keywords": ["tree", "behaviors", "doctrine2", "extensions", "gedmo", "sluggable","loggable", "translatable", "nestedset", "sortable", "timestampable"],
-    "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+    "homepage": "https://github.com/pdesmarais/StofDoctrineExtensionsBundle",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "~2.1",
-        "gedmo/doctrine-extensions": "~2.3.1"
+        "gedmo/doctrine-extensions": "~2.4"
     },
     "suggest": {
         "doctrine/doctrine-bundle": "to use the ORM extensions",
